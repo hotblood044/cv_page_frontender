@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CV page</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="assets/zhivotnye_kot_13379.jpg" alt="kot" class="avatar">
+        <h1 class="header__title">Maksim4k</h1>
+        <h2  class="header__subtitle">Frontend developer</h2>
+    </header>
+
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+
+            <details>
+                <summary>Skills list:</summary>
+
+                <ol>
+                    <li>1.HTML</li>
+                    <li>2.CSS</li>
+                    <li>3.JavaScript</li>
+                    <li>4.React</li>
+                    <li>5.TypeScript</li>
+                </ol>
+            </details>
+        </section>
+
+        <article class="article">
+            <h4>Short article about my</h4>
+
+            <p>
+                I am a frontend developer with a passion for creating visually appealing and user-friendly web applications. I have experience working with HTML, CSS, JavaScript, React, and TypeScript. I enjoy collaborating with cross-functional teams to deliver high-quality products that meet user needs. In my free time, I like to explore new technologies and stay up-to-date with the latest trends in web development.
+            </p>
+        </article>
+
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+        </section>
+
+        <hr class="separator">
+
+        <section>
+            <iframe  class="video width="1179" height="674" src="https://www.youtube.com/embed/N-Fa1tm3oz0?list=PLV9lBwGQ2FU1VOctyWifetyMMC-OTJ51e" title="24. Frontender[1.0] CV Page. Вёрстка первой страницы HTML, CSS"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="hobbies">
+            <h4> My hobbies</h4>
+
+            <details>
+                <summary>Hobbies</summary>
+
+                <ul>
+                    <li>Reading books</li>
+                    <li>Playing games</li>
+                    <li>Playing the guitar</li>
+                </ul>
+            </details>
+        </section>
+
+        <hr class="separator">
+
+        <section class="ed">
+            <table class="ed_table">
+                <thead>
+                    <tr>
+                        <th>School/University</th>
+                        <th>Profession</th>
+                        <th>Years</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>ITCourses</td>
+                        <td>Frontend developer</td>
+                        <td>2021-2023</td>
+                    </tr>
+                    <tr>
+                        <td>ITCourses</td>
+                        <td>3D generalist</td>
+                        <td>2024-2026</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                Действия - это единственный путь к успеху
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+             <form action="https://ya.ru" method="get" class="form" target="_blank">
+            <fieldset>
+                <legend>Required fields:</legend>
+                    <label for="firstName-id">First Name:</label>
+                    <input type="text" name="firstName" id="firstName-id" required class="form_control" placeholder="first name">
+                
+                    <label for="lastName-id">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName-id" required class="form_control" placeholder="last name">
+                
+                    <label for="email-id">Email:</label>
+                    <input type="email" name="email" id="email-id" required class="form_control" placeholder="email">
+            </fieldset>
+
+            <br>
+            <textarea name="questions" id="" cols="30" rows="5" placeholder="Your questions..."></textarea>
+
+            <button type="submit" class="form_submit">Submit</button>
+        </section>
+    </main>
+    
+
+    <footer>
+        <address>
+            <a href="mailto:it@mail.ru" class="contacts_link">mailto:it@mail.ru</a>
+            <br><br>
+            <a href="tell:9192434937" class="contacts_link">tell:9192434937</a>
+        </address>
+    </footer>
+</body>
+
+</html>
